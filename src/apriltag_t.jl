@@ -1,4 +1,5 @@
 mutable struct apriltag_t <: LCMType
+  utime::Int64
   id::Int32
   hammingDistance::Int32
   p::SMatrix{4,2,Float64}

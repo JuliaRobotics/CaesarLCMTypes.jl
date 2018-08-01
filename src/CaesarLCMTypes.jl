@@ -19,7 +19,8 @@ export
   example_t,
   generic_variable_t,
   generic_factor_t,
-  brookstone_supertype_t
+  brookstone_supertype_t,
+  tag_landmark_t
 
 include("apriltag_t.jl")
 include("apriltag_detections_t.jl")
@@ -39,6 +40,8 @@ include("generic_factor_t.jl")
 
 # supertypes
 include("brookstone_supertype_t.jl")
+
+include("tag_landmark_t.jl")
 
 
 end
